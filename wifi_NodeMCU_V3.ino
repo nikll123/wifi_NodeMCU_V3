@@ -6,9 +6,6 @@
 #define SSID Keenetic-4312
 #include <C:\Projects\wifi_NodeMCU_V3\password.h> // define PSWD
 
-//const char* ssid = "Keenetic-4312";
-//const char* password = "irAomoD4";
-
 void setup() {
   Serial.begin(115200);
   //WiFi.begin(ssid, password);
