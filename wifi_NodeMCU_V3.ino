@@ -3,7 +3,8 @@
 
 
 #include <ESP8266WiFi.h>
-#include <credentials.h> // define SSID and PSWD
+#define SSID Keenetic-4312
+#include <C:\Projects\wifi_NodeMCU_V3\password.h> // define PSWD
 
 //const char* ssid = "Keenetic-4312";
 //const char* password = "irAomoD4";
