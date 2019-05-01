@@ -3,13 +3,17 @@
 
 
 #include <ESP8266WiFi.h>
-#define SSID Keenetic-4312
-#include <C:\Projects\wifi_NodeMCU_V3\password.h> // define PSWD
+
+#include <C:\Projects\wifi_NodeMCU_V3\password.h> // const char* password = "PSWD";
+const char* ssid = "Keenetic-4312";
+
 
 void setup() {
   Serial.begin(115200);
-  //WiFi.begin(ssid, password);
-  WiFi.begin("SSID", "PSWD");
+  Serial.println("");
+  Serial.println(ssid);
+  Serial.println(password);
+  WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED)
   {
     delay(500);
