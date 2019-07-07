@@ -4,7 +4,7 @@
 
 #include <ESP8266WiFi.h>
 
-#include <C:\Projects\wifi_NodeMCU_V3\password.h> // const char* password = "PSWD";
+#include <C:\Projects\Esp8266\password.h> // const char* password = "PSWD";
 const char* ssid = "Keenetic-4312";
 
 
